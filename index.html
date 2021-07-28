@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Egor">
-  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="../first-project/styles/style.css">
+  <link rel="stylesheet" href="..//first-project/styles/normalize.css">
   <title>Научиться учиться</title>
 </head>
 
@@ -16,33 +17,187 @@
         <h1 class="header__text-title">Научиться<br>учиться</h1>
       </div>
       <div class="header__subtitle">Какие современные и эффективные подходы<br>к обучению вы
-        можете использовать в своей<br> жизни? <a class="link" href="#">Узнать &#10230</a>
+        можете использовать в своей<br> жизни? <a class="link" href="#">Узнать &#10230;</a>
       </div>
-      <div class="logo logo_place_header"> </div>
+      <div class="logo logo__place_header"> 
+        <img src="..//first-project/images/logo_place_header.svg" alt="logo__header"> 
+      </div>
       <div class="header__square-pic"></div>
-      <img class="header__image-pic" src="/images/header-image.png" alt="Картинка">
-
-  </div>
-  </header>
-  <main class="content">
-    <section class="description">
-    </section>
-
-    <section class="digits">
-    </section>
-
-    <section class="feynman">
-    </section>
-
-    <section class="kaufman">
-    </section>
-  </main>
-  <footer class="footer">
-
-  </footer>
+      <img class="header__image-pic" src="../first-project/images/header-image.png" alt="Картинка">
+    </header>
+    <main class="content">
+      <section class="description">
+        <div class="two-columns">
+          <div class="two-columns__brief">Главные проблемы в обучении</div>
+          <div class="two-columns__main-text">
+            <div class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
+              материал. Мы <br> готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи,<br>
+              чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка<br> быстро
+              выветривается и не приносит пользы.</div>
+            <div class="two-columns__paragraph"><span class="span-accent">Вывод:</span> учиться тоже нужно уметь, но
+              почему-то этому мало где учат. Что с этим делать?</div>
+            <div class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
+              сделать его<br> эффективным и захватывающим. Эти техники применяются на примере обучения в<br> Практикуме.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="digits">
+        <div class="section-title">
+          <h2 class="section-title_h">Цифры и факты</h2>
+        </div>
+        <div class="section-subtitle">
+          <h3 class="section-title_h2">Про учебу и мозг</h3>
+        </div>
+        <div class="table">
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">86 миллиардов</div>
+            <div class="table__text">Число нейронов в мозге<br>человека</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">2,1 миллиарда</div>
+            <div class="table__text">Число нуждающихся в<br>повышении квалификации</div>
+            <div class="table__text">Всемирный Банк, 2017</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">1000 терабайт</div>
+            <div class="table__text">Объём памяти человека</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">500 трилионов</div>
+            <div class="table__text">Число ответственных за<br>обучение нервных синапсов<br>у взрослого человека</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">420 миллионов</div>
+            <div class="table__text">Число взрослых людей<br>моложе 25 лет, не имеющих<br>образования
+              для<br>трудоустройства</div>
+            <div class="table__text">Всемирный Банк, 2017</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">17-20 лет</div>
+            <div class="table__text">Пик обучаемости</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">1885 год</div>
+            <div class="table__text">Открытие кривой забывания</div>
+          </div>
+          <div class="table__cell table__cell_theme_light">
+            <div class="table__heading">1889 год</div>
+            <div class="table__text">Открытие условного рефлекса</div>
+          </div>
+        </div>
+      </section>
+      <section class="feynman">
+        <div class="feynman__title">
+          <h1 class="feynman-title_h">Метод<br>Фейнмана</h1>
+          <h2 class="feynman-title_h2">Выучить и не забыть.</h2>
+        </div>
+        <img class="feynman__img" src="../first-project/images/feynman.png" alt="feynman">
+        <div class="feynman__subtitle">
+        </div>
+        <div class="feynman__link">
+          <p><a class="link" href="#prince">Подробнее &#10230;</a></p>
+          <!--Ссылка ведет на другой блок -->
+        </div>
+      </section>
+      <section class="caufman caufman_theme_dark">
+        <div id="prince" class="section-title">
+          <h1 class="section-title section-title_theme_dark">Принципы обучения</h1>
+        </div>
+        <img class="caufman__triangle" src="../first-project/images/kaufman-triangle.svg" alt="triangle">
+        <div class="section-subtitle">
+          <h2 class="section-title_h2">от Джоша Кауфмана</h2>
+        </div>
+        <div class="table table_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">1</div>
+            <div class="table__text">Выберите привлекательный проект.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">2</div>
+            <div class="table__text">Сосредоточьтесь на каком-то одном навыке.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">3</div>
+            <div class="table__text">Определите целевой уровень мастерства.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">4</div>
+            <div class="table__text">Разбейте навык на элементы.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">5</div>
+            <div class="table__text">Приготовьте всё необходимое для занятий.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">6</div>
+            <div class="table__text">Устраните препятствия для занятий.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">7</div>
+            <div class="table__text">Выделите специальное время для занятий.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">8</div>
+            <div class="table__text">Создайте быстрые петли обратной связи.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">9</div>
+            <div class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</div>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <div class="table__heading">10</div>
+            <div class="table__text">Уделяйте внимание количеству и скорости.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <!-- 1 -->
+      <div class="footer__columns">
+        <!-- 2 -->
+        <div class="column_content-copyright">
+          <!-- 5 -->
+          <div class="logo logo__place_footer">
+            <img class="logo__place_footer" src="..//first-project/images/logo_place_footer.svg" alt="logo__footer">
+          </div>
+          <!-- 6 -->
+          <div class="footer__author">
+            &copy; 2021 Егор Токарев
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="column_content-info">
+          <!-- 7 -->
+          <div class="footer__column-heading">
+            О Практикуме
+            <div class="footer__column-links">
+              <a class="link_footer" href="#">Главная</a>
+              <a class="link_footer" href="#">Концепции</a>
+              <a class="link_footer" href="#">Наставники</a>
+            </div>
+          </div>
+          <!-- 8 -->
+        </div>
+        <!-- 4 -->
+        <div class="column_content-social">Соцсети
+          <div class="footer__column-links">
+            <div class="footer__social-icon">
+              <a href="#" class="link_footer"><img src="..//first-project/images/facebook_color_white.svg" class="icon-size" alt="Logo__fb">
+                Facebook</a>
+            </div>
+            <div class="footer__social-icon">
+              <a href="#" class="link_footer"><img src="..//first-project/images/vk_color_white.svg" class="icon-size" alt="Logo__vk"> ВКонтакте</a>
+            </div>
+            <div class="footer__social-icon">
+              <a href="#" class="link_footer"><img src="..//first-project/images/instagram_color_white.svg" class="icon-size" alt="Logo__inst">
+                Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
   </div>
 </body>
-
-
 
 </html>
