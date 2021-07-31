@@ -245,6 +245,8 @@ p {
   font-weight: normal;
   line-height: 51px;
   text-decoration: none;
+  z-index: 10;
+  
 }
 
 .caufman{
