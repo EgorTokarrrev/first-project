@@ -279,10 +279,11 @@ margin-bottom: 90px;
   width: 877px;
   position: absolute;
   right: -210px;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-position: center;
   background-size: cover;
 }
+
 
 .footer {
   background-color: #1f1f1f;
