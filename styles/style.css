@@ -43,7 +43,6 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-
 .logo {
   height: 32px;
   width: 183px;
@@ -75,7 +74,6 @@
   margin-left: 64px;
   width: 388px;
 }
-
 
 .header__link {
   color: #2f80ed;
@@ -287,7 +285,6 @@
   background-size: cover;
 }
 
-
 .footer {
   background-color: #1f1f1f;
   color: white;
@@ -315,7 +312,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+ /* фикс? */
 .footer__column_content-info{
 
 }
