@@ -48,7 +48,7 @@
   width: 183px;
 }
 
-.logo__place_header {
+.logo_place_header {
   background-image: url(/images/logo_place_header.svg);
   position: absolute;
   top: 30px;
@@ -268,13 +268,14 @@
 .section-title_theme_dark{
   margin-top: 90px;
   color: white;
+  z-index: 1;
 }
 
 .table_theme_dark{
   margin-bottom: 90px;
 }
 
-.caufman__triangle {
+.kaufman__triangle {
   z-index: 1;
   height: 877px;
   width: 877px;
@@ -312,9 +313,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
- /* фикс? */
-.footer__column_content-info{
 
+.footer__column_content-info{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  font-style: normal;
+  margin: 0;
 }
 
 .footer__column_content-social {
