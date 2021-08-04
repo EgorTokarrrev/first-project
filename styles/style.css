@@ -236,15 +236,14 @@
   line-height: 51px;
   text-decoration: none;
   z-index: 10;
-  
 }
 
-.caufman{
+.kaufman{
   overflow: hidden;
   position: relative;
   }
 
-.caufman_theme_dark{
+.kaufman_theme_dark{
   background-color: #1f1f1f;
 }
 
