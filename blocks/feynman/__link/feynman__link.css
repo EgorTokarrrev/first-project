@@ -9,3 +9,8 @@
     text-decoration: none;
     z-index: 10;
   }
+
+  .feynman__link:hover {
+    opacity: 50%;
+    transition: .5s;
+}
