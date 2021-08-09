@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Downloads/mogo_1"
+		},
+		{
+			"path": "../../test"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "first-project_1"
+	}
+}

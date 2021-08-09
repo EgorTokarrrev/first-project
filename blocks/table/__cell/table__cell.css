@@ -1,0 +1,9 @@
+.table__cell {
+    width: 250px;
+    color: black;
+    margin-right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 60px 0 0 0;
+    z-index: 3;
+  }
