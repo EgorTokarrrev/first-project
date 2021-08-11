@@ -4,3 +4,11 @@
     font-size: 24px;
     margin: 0;
   }
+
+.two-columns__paragraph:nth-child(2) {
+    padding-top: 30px;
+  }
+
+.two-columns__paragraph:nth-child(3) {
+    padding-top: 30px;
+  }
