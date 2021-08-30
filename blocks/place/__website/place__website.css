@@ -1,0 +1,6 @@
+.place__website {
+    align-self: end;
+    justify-self: start;
+    grid-row: 1;
+    grid-column: 2;
+  }

@@ -1,0 +1,13 @@
+.cover__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgba(42, 44, 47, 0.3);
+    text-decoration: none;
+    /* padding: 50px; */
+  }
+  
+  .cover__item:hover {
+    background: rgba(42, 44, 47, 0.8);
+  }
